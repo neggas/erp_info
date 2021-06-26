@@ -38,18 +38,18 @@
 
     <!-- ======= Header ======= -->
     <header id="header" class="header">
-        <div class="container">
+        <div class="container d-flex justify-content-between align-items-center">
 
-            <div id="logo" class="pull-left">
-                <h1><a href="index.html"><span>ERP</span></a></h1>
+            <div id="logo" class="pull-left" style="padding: 0">
+                <!-- <h1><a href="index.html"><span><img src="assets/img/logo.png" alt="logo" style="width: 55%;" /></span></a></h1> -->
                 <!-- Uncomment below if you prefer to use an image logo -->
-                <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" title="" /></a>-->
+                <a href="index.html"><img src="assets/img/logo.png" alt="logo" title="logo" style="width: 55%;" /></a>
             </div>
 
             <nav id="nav-menu-container">
                 <ul class="nav-menu">
                     <li class="menu-active"><a href="index.html">Acceuil</a></li>
-                    <li><a href="#about-us">A propos</a></li>
+                    <!-- <li><a href="#about-us">A propos</a></li> -->
                     <li><a href="#features">Fonctionnalités</a></li>
                     <li><a href="#screenshots">Eagle pgi en image</a></li>
                     <li><a href="#pricing">Offres</a></li>
@@ -64,9 +64,11 @@
     <!-- ======= Hero Section ======= -->
     <section id="hero">
         <div class="hero-container" data-aos="fade-in">
-            <h1>BIENVENUE SUR VOTRE ERP</h1>
+            <h1>EaglePGI</h1>
             <h2>Un ERP Elégant Fonctionnel avec plus de fonctionnalités, et une facilité d'utilisation </h2>
-            <img src="assets/img/dashboard.png" alt="Hero Imgs" data-aos="zoom-out" data-aos-delay="100">
+        </div>
+        <div class="welcome_img">
+            <img src="assets/img/pc_welcome.png" alt="Hero Imgs" data-aos="zoom-out" data-aos-delay="100">
         </div>
     </section>
     <!-- End Hero Section -->
@@ -190,7 +192,7 @@
         <!-- End Features Section -->
 
         <!-- ======= Screenshots Section ======= -->
-        <section id="screenshots" class="padd-section text-center overlay">
+        <section id="screenshots" class="padd-section text-center overlay image_party">
 
             <div class="container aos-init aos-animate" data-aos="zoom-in">
                 <div class="section-title text-center">
@@ -200,13 +202,14 @@
 
                 <div class="owl-carousel owl-theme" data-aos="fade-up" data-aos-delay="100">
 
-                    <div><img src="assets/img/screen/1.png" alt="img"></div>
-                    <div><img src="assets/img/screen/2.png" alt="img"></div>
-                    <div><img src="assets/img/screen/3.png" alt="img"></div>
-                    <div><img src="assets/img/screen/4.png" alt="img"></div>
-                    <div><img src="assets/img/screen/5.png" alt="img"></div>
-                    <div><img src="assets/img/screen/6.png" alt="img"></div>
-                    <div><img src="assets/img/screen/7.png" alt="img"></div>
+                    <div class="screenshots-area" style="background-image: url(assets/img/screen/1.png);"></div>
+                    <div class="screenshots-area" style="background-image: url(assets/img/screen/2.png);"></div>
+                    <div class="screenshots-area" style="background-image: url(assets/img/screen/3.png);"></div>
+                    <div class="screenshots-area" style="background-image: url(assets/img/screen/4.png);"></div>
+                    <div class="screenshots-area" style="background-image: url(assets/img/screen/5.png);"></div>
+                    <div class="screenshots-area" style="background-image: url(assets/img/screen/6.png);"></div>
+                    <div class="screenshots-area" style="background-image: url(assets/img/screen/7.png);"></div>
+
 
                 </div>
             </div>
@@ -240,7 +243,6 @@
                 </div>
 
                 <div class="row" data-aos="fade-up" data-aos-delay="100">
-
                     <div class="col-md-6 col-lg-3">
                         <div class="block-pricing">
                             <div class="table">
@@ -426,19 +428,16 @@
 
     </main>
     <!-- End #main -->
-
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15888.529062059873!2d-3.9879382!3d5.3968098!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc11e263330a67816!2sWorld%20Market%20Commodities!5e0!3m2!1sfr!2sci!4v1624722161904!5m2!1sfr!2sci" width="100%"
+            height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
     <!-- ======= Footer ======= -->
     <footer class="footer">
         <div class="copyrights">
             <div class="container">
                 <p>&copy; Copyrights WMC-2021. All rights reserved.</p>
                 <div class="credits">
-                    <!--
-          All the links in the footer should remain intact.
-          You can delete the links only if you purchased the pro version.
-          Licensing information: https://bootstrapmade.com/license/
-          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=eStartup
-        -->
                     Designed by <a href="https://bootstrapmade.com/">WMC DEVELLOPERS</a>
                 </div>
             </div>
